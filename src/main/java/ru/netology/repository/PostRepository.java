@@ -9,7 +9,7 @@ import java.util.Optional;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicLong;
 
-@Repository
+
 public class PostRepository {
 
     private AtomicLong currentID = new AtomicLong(0);
